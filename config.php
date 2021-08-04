@@ -10,6 +10,8 @@
 
 /*
 
+        You can set your directory name as "api" or "GSM_API"
+
 	[Fetch New Messages]
 		http://localhost/GSM_API/gsm_api.php?action=fetch_new
 
