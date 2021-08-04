@@ -12,7 +12,7 @@ Now go back and go to **phpMyAdmin** in your cpanel.
 At this point you can set this API via two methods:
 
 ### Method 1: Automatic 
-Now download `sql script` from [here](), while you are inside your dabase in `phpMyAdmin`, go to `import` and browse the sql file that you have downloaded. Just click `Go` and you are done. Now skip Method 2.
+Now download sql script `gsm_api.sql` from [here](https://github.com/fWd82/Remote-GSM-Modem-API/blob/main/gsm_api.sql), while you are inside your dabase in `phpMyAdmin`, go to `import` and browse the sql file that you have downloaded. Just click `Go` and you are done. Now skip Method 2.
 
 ### Method 2: Manual 
 You can create even new `table` name it: `users_mobile`
