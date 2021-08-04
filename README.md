@@ -76,5 +76,8 @@ Change value of status from `1` to `0` or `0` to `1`
     
     INSERT:
     https://exampleurl.com/api/gsm_api.php?action=insert&name=NAME&mobile=+9XXXXXXXXXX&message=ANY_MESSAGE&status=0
+    
+    [Delete Message / Del Record from DB]
+	http://localhost/api/gsm_api.php?action=delete&id=2
 
 
