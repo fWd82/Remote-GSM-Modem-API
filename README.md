@@ -3,7 +3,7 @@
 This repo is assosiated with [Remote GSM Modem](https://github.com/fWd82/Remote-GSM-Modem/)
 
 # Setting Up API 
-
+Detailed discussion are here on how to set up this api [HERE](https://github.com/fWd82/Remote-GSM-Modem-API/)
 ## Database
 
 You can create yourself new Database name it whatever you want. 
@@ -33,7 +33,7 @@ Now you are done.
 
 ## API
 Now Download API from [HERE](https://github.com/fWd82/Remote-GSM-Modem-API/) which is written in PHP. Change credentials in file: `config.php` [here](https://github.com/fWd82/Remote-GSM-Modem-API/blob/main/config.php) on line number `4`, `5`, `6` according to your cpanel settings. 
-Now go to your **File Manager** in cpanel, go to **public_html**  create new directory/folder name it **api** and paste content of API that you have downloaded.
+Now go to your **File Manager** in cpanel, go to **public_html**  create new directory/folder name it **api**  (or just **GSM_API**) and paste content of API that you have downloaded.
 At this moment your API is ready to test.
 
 You can check your API home page: 
