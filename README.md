@@ -3,7 +3,7 @@
 This repo is assosiated with [Remote GSM Modem](https://github.com/fWd82/Remote-GSM-Modem/)
 
 # Setting Up API 
-Detailed discussion are here on how to set up this api [HERE](https://github.com/fWd82/Remote-GSM-Modem-API/)
+
 ## Database
 
 You can create yourself new Database name it whatever you want. 
