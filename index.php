@@ -31,6 +31,37 @@
 					</thead>
 					<tbody></tbody>
 				</table>
+				
+				<hr />
+				<div align="left">
+				    <h3>SEND SMS</h3>
+				    <?php 
+				        echo "<code>https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "gsm_api.php?action=insert&name=NAME&mobile=+9XXXXXXXXXX&message=ANY_MESSAGE&status=0</code>";
+				    ?>
+				    
+				    <h3>UPDATE SMS STATUS</h3>
+				    <?php 
+					echo "<code>https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "gsm_api.php?action=update&id=1&status=1</code>";
+				    ?> 
+				    <hr />
+					
+				    <h3>Fetch All Records</h3>
+				    <?php 
+					echo "<code>https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "gsm_api.php?action=fetch_all</code>";
+				    ?> 
+
+				    <h3>Fetch New Data</h3>
+				    <?php 
+					echo "<code>https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "gsm_api.php?action=fetch_new</code>";
+				    ?> 
+
+				    <h3>Delete Message / Del Record from DB</h3>
+				    <?php 
+					echo "<code>https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "gsm_api.php?action=delete&id=2</code>";
+				    ?> 
+				    <br /><br /><br /><br />
+				</div>
+				
 			</div>
 		</div>
 	</body>
