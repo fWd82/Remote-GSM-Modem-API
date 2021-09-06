@@ -18,6 +18,13 @@ $result = json_decode($response);
 
 $output = '';
 
+// If you are using higher version of PHP uncomment any of below:
+// if(version_compare(PHP_VERSION, '7.2.0', '>=')) {
+//    error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
+// }
+// or
+// if(count((array)$result) > 0)
+// https://stackoverflow.com/a/57670374/5737774
 if(count($result->users) > 0)
  
 {
